@@ -21,6 +21,12 @@ g++ realizationV2.cpp -o realizationV2 -O3 && ./realizationV2
 g++ realizationV3.cpp -o realizationV3 -O3 && ./realizationV3
 ```
 
+
+Sort: I implemented quick sort
+```bash
+g++ sort_comparison.cpp -o sort_comparison && ./sort_comparison
+```
+
 ## Implementation Approaches
 
 ### First Attempt (V3 - Initial)
@@ -80,6 +86,11 @@ students_100.csv | 11588278 | 2316815
 students_1000.csv | 1512185 | 301674
 students_10000.csv | 345411 | 69274
 students.csv | 298676 | 59441
+
+
+Sort comparison:
+std::sort: 294666 us
+quick sort: 344508 us
 
 **Conclusion:** V2 with group-based indexing and full caching provides the best performance, approximately 2x faster than V1 with caching and 18x faster than the initial implementation.
 # hw1_repository_algorithms

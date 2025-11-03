@@ -222,10 +222,10 @@ static void run_on_csv_files_simple(const std::vector<std::string>& files) {
 
 int main() {
     std::vector<std::string> files = {
-        "students_100.csv",
-        "students_1000.csv",
-        "students_10000.csv",
-        "students.csv"
+        "databases/students_100.csv",
+        "databases/students_1000.csv",
+        "databases/students_10000.csv",
+        "databases/students.csv"
     };
     run_on_csv_files_simple(files);
     return 0;

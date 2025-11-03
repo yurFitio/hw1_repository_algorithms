@@ -1,4 +1,4 @@
-name,surname,email,year,month,day,group,rating,phone
+m_name,m_surname,m_email,m_birth_year,m_birth_month,m_birth_day,m_group,m_rating,m_phone_number
 Євгенія,Іваненко,yevheniya.ivanenko6@student.org,1996,6,8,XLL-44,51.68,38(050)65-57-765
 Євгенія,Іваненко,yevheniya.ivanenko31@student.org,1964,10,25,BBC-63,82.97,38(099)21-54-180
 Євгенія,Іваненко,yevheniya.ivanenko30@student.org,1953,1,21,EDX-14,6.82,38(095)99-61-776
